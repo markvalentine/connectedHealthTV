@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Color/Time</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons/Color/Time" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#FFCC57" cx="40" cy="40" r="40"></circle>
+        <path d="M24.5299532,20 L55.1604244,20 L55.1604244,22.56798 L42.5090146,39.6337915 L55.1604244,57.601605 L55.1604244,60 L24,60 L24,57.601605 L36.8923762,40 L24.5299532,22.56798 L24.5299532,20 Z M33.5299532,29.56798 L36.0046273,32.0794732 C37.8481398,33.9504141 38.8815392,36.4715485 38.8815392,39.0981352 L38.8815392,46.9592186 C38.8815392,51.4331643 35.9098583,55.3627251 31.605035,56.5812023 L28,57.601605 L51.1604244,57.601605 L47.7416968,56.611741 C43.4656275,55.3736409 40.5228799,51.4579759 40.5228799,47.0062727 L40.5228799,39.2509362 C40.5228799,36.5341223 41.6282822,33.9342446 43.5848312,32.0493058 L46.1604244,29.56798 L33.5299532,29.56798 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+    </g>
+</svg>

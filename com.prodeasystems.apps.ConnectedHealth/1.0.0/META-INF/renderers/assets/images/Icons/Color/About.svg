@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Color/About</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="40" cy="40" r="40"></circle>
+    </defs>
+    <g id="Icons/Color/About" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#619DEC" xlink:href="#path-1"></use>
+            <path d="M39.93,31.45 C37.015,31.45 34.705,29.14 34.705,26.225 C34.705,23.31 37.015,21 39.93,21 C42.845,21 45.21,23.31 45.21,26.225 C45.21,29.14 42.845,31.45 39.93,31.45 Z M45.21,52.57 C45.21,55.595 45.485,57.795 47.465,58.345 L47.465,58.785 L33.715,58.785 L33.715,58.345 C35.805,57.74 35.86,55.375 35.86,52.57 L35.86,39.15 C35.86,37.225 35.255,36.455 33,35.63 L33,35.19 L45.21,32.88 L45.21,52.57 Z" id="i" fill="#FFFFFF" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

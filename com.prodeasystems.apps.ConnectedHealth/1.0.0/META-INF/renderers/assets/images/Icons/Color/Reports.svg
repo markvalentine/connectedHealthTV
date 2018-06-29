@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Color/Reports</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons/Color/Reports" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Reports">
+            <circle id="Combined-Shape" fill="#28D9B2" cx="40" cy="40" r="40"></circle>
+            <path d="M24,17 L55,17 C56.1045695,17 57,17.8954305 57,19 L57,61.6666667 C57,62.7712362 56.1045695,63.6666667 55,63.6666667 L24,63.6666667 C22.8954305,63.6666667 22,62.7712362 22,61.6666667 L22,19 C22,17.8954305 22.8954305,17 24,17 Z M26,24 L26,26 L43,26 L43,24 L26,24 Z M26,32 L26,34 L52,34 L52,32 L26,32 Z M26,40 L26,42 L43,42 L43,40 L26,40 Z M26,56 L26,58 L43,58 L43,56 L26,56 Z M26,48 L26,50 L52,50 L52,48 L26,48 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

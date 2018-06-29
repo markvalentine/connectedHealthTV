@@ -1,0 +1,25 @@
+<renderer class="rostv" v="2">
+  <menu id="1"
+        name="ConnectedHealth"
+    >
+    
+    <application
+         id="1"
+         name="ConnectedHealth"
+         launchlocation="rostv/ConnectedHealth.html"
+         launchtype="iframe"
+         launchcontext=""
+	 wanRequired="true"
+         icon="assets/images/rostv_launchpad_238x78_en_US.png"
+         iconrc="assets/images/remote_launchpad_235x235_en_US.png"
+         splashscreen="assets/images/rostv_splash_500x200_en_US.png"
+         prodea_app="true"
+     >
+     <!--ru_RU
+         icon="assets/images/rostv_launchpad_238x78_ru_RU.png"
+         iconrc="assets/images/remote_launchpad_235x235_ru_RU.png"
+         splashscreen="assets/images/rostv_splash_500x200_ru_RU.png"
+     /-->
+   </application>
+  </menu>
+</renderer>

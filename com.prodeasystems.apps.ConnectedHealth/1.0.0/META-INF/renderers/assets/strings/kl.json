@@ -1,0 +1,9 @@
+{
+    "name": "ConnectedHealth Translations",
+    "language": "Klingon",
+    "translations": {
+        "default": {
+                    "hello": "Привет"
+        }
+    }
+}

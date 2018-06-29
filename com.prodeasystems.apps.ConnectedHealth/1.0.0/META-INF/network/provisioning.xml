@@ -1,0 +1,10 @@
+addClass%serviceId=APPLICATION_MGR#className=com.prodeasystems.apps.ConnectedHealth#releaseContainerName=RHC1000_Prodea_1.0.0^
+addClassInstance%serviceId=APPLICATION_MGR#className=com.prodeasystems.apps.ConnectedHealth#releaseContainerName=RHC1000_Prodea_1.0.0#instanceId=MODEL_1#instanceName=MODEL_1#instanceData=<![CDATA[<ServiceData>
+    <Application symbolicname="com.prodeasystems.apps.ConnectedHealth" version="1.0.0">
+        <status>enabled</status>
+    </Application>
+    <ApplicationConfig symbolicname="com.prodeasystems.apps.ConnectedHealth" version="1.0.0">
+        <config>
+        </config>
+    </ApplicationConfig>
+</ServiceData>]]>^

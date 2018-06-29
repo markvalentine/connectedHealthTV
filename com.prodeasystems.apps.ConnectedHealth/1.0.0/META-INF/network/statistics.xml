@@ -1,0 +1,54 @@
+<StatisticalData  app="com.prodeasystems.apps.ConnectedHealth" ver='1.1' enabled="true" >
+    <AttemptedInvocations type="C" enabled="true"/>
+    <SuccessfulInvocations type="C" enabled="true"/>
+    <FailedInvocations type="C" enabled="true"/>
+    <MinutesVisible type="U" enabled="true"/>
+    <SuccessfulAPICalls type="C" enabled="true"/>
+    <FailedAPICalls type="C" enabled="true"/>
+    <SuccessfulKeepAliveCalls type="C" enabled="true"/>
+    <FailedKeepAliveCalls type="C" enabled="true"/>
+    <APITimeouts type="C" enabled="true"/>
+    <ConnectedHealthSummarySuccess type="S" enabled="true"/>
+    <ConnectedHealthSummaryFailure type="S" enabled="true"/>
+
+    <!-- PageViews -->
+    <LoginPageViews type="U" enabled="true"/>
+    <DashboardPageViews type="U" enabled="true"/>
+    <BloodPressurePageViews type="U" enabled="true"/>
+    <BloodGlucoseViews type="U" enabled="true"/>
+    <BloodOxygenPageViews type="U" enabled="true"/>
+    <WeightPageViews type="U" enabled="true"/>
+    <HeartRatePageViews type="U" enabled="true"/>
+    <TemperaturePageViews type="U" enabled="true"/>
+    <HelpPageViews type="U" enabled="true"/>
+    <AboutPageViews type="U" enabled="true"/>
+    <SettingsPageViews type="U" enabled="true"/>
+
+    <!-- TimeSpentOnPages -->
+    <MinutesVisibleLogin type="U" enabled="true"/>
+    <MinutesVisibleDashboard type="U" enabled="true"/>
+    <MinutesVisibleBloodPressure type="U" enabled="true"/>
+    <MinutesVisibleBloodGlucose type="U" enabled="true"/>
+    <MinutesVisibleBloodOxygen type="U" enabled="true"/>
+    <MinutesVisibleWeight type="U" enabled="true"/>
+    <MinutesVisibleHeartRate type="U" enabled="true"/>
+    <MinutesVisibleTemperature type="U" enabled="true"/>
+    <MinutesVisibleHelp type="U" enabled="true"/>
+    <MinutesVisibleAbout type="U" enabled="true"/>
+    <MinutesVisibleSettings type="U" enabled="true"/>
+
+    <!-- Actions -->
+    <ClickOnVitalWidget type="U" enabled="true"/>
+    <TaskDetailOpened type="U" enabled="true"/>
+    <VitalDetailOpened type="U" enabled="true"/>
+    <UserLogin type="U" enabled="true"/>
+    <UserLogout type="U" enabled="true"/>
+    <ForgotPassword type="U" enabled="true"/>
+    <ChangeVitalTimeFrameTotal type="U" enabled="true"/>
+    <ChangeVitalTimeFrameWithHotKey type="U" enabled="true"/>
+    <ChangeVitalTimeFrameTo3Days type="U" enabled="true"/>
+    <ChangeVitalTimeFrameTo7Days type="U" enabled="true"/>
+    <ChangeVitalTimeFrameTo30Days type="U" enabled="true"/>
+
+
+</StatisticalData>

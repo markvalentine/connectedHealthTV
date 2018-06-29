@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/White/About</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="40" cy="40" r="40"></circle>
+    </defs>
+    <g id="Icons/White/About" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <path d="M39.8439539,30.336121 C36.1238781,30.336121 33.1758934,27.3881364 33.1758934,23.6680605 C33.1758934,19.9479846 36.1238781,17 39.8439539,17 C43.5640298,17 46.5822046,19.9479846 46.5822046,23.6680605 C46.5822046,27.3881364 43.5640298,30.336121 39.8439539,30.336121 Z M46.5822046,57.2891235 C46.5822046,61.1495796 46.9331551,63.957184 49.4599991,64.6590851 L49.4599991,65.220606 L31.9124714,65.220606 L31.9124714,64.6590851 C34.5796956,63.8869939 34.6498858,60.8688191 34.6498858,57.2891235 L34.6498858,40.1627365 C34.6498858,37.7060826 33.8777945,36.7234211 31,35.6705694 L31,35.1090485 L46.5822046,32.1610639 L46.5822046,57.2891235 Z" id="i" fill="#619DEC" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

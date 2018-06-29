@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Color/Check</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons/Color/Check" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Combined-Shape" fill="#81B6FC" cx="40" cy="40" r="40"></circle>
+        <path d="M22.3076923,41.1538462 L22.3076923,41.1538462 C21.033189,42.4283494 21.033189,44.4947275 22.3076923,45.7692308 L29.5589232,53.0204616 C31.0895623,54.5511008 33.5601149,54.5863872 35.1338444,53.1000871 L57.6273419,31.8562284 C58.90082,30.6534991 58.9581732,28.6461363 57.7554439,27.3726581 C57.7347088,27.3507034 57.7136613,27.3290459 57.6923077,27.3076923 L57.6923077,27.3076923 C56.4051385,26.0205231 54.3295289,25.9847474 52.9987655,27.2267932 L33.0139733,45.879266 C32.6200286,46.2469477 32.0055878,46.236357 31.6245482,45.8553175 L26.9230769,41.1538462 C25.6485737,39.8793429 23.5821956,39.8793429 22.3076923,41.1538462 Z" id="Checkmark" fill="#FFFFFF"></path>
+    </g>
+</svg>

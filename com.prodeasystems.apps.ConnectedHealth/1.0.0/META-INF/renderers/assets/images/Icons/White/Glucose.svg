@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/White/Glucose</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons/White/Glucose" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <circle id="Oval-7" fill="#FFFFFF" cx="40" cy="40" r="40"></circle>
+            <path d="M40,66.7777778 C30.4270643,66.7777778 22.6666667,59.0173801 22.6666667,49.4444444 C22.6666667,43.0624873 28.4444444,31.0254503 40,13.3333333 C51.5555556,31.0254503 57.3333333,43.0624873 57.3333333,49.4444444 C57.3333333,59.0173801 49.5729357,66.7777778 40,66.7777778 Z M41.3432148,61.3363982 L41.3432148,58.6644212 C38.6351277,57.9912874 36.3475857,56.8530039 34.4805889,55.2495707 C32.613592,53.6461375 31.5016178,51.3612256 31.1446661,48.3948351 L28.5667221,48.3948351 C28.5667221,55.0222521 34.7157979,61.3363982 41.3432148,61.3363982 Z" id="Combined-Shape" fill="#FF7979"></path>
+        </g>
+    </g>
+</svg>

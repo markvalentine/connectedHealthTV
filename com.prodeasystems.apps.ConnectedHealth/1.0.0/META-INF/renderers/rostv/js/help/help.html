@@ -1,0 +1,84 @@
+<div class='viewContainer'>
+    <nav class="header">
+        <img src="../assets/images/Icons/Color/Help.svg"><h2>Help</h2>
+        <h3 class="float-left">ROS Health</h3>
+        <div class="float-right" data-bind="with: Prodea.App.ConnectedHealth.userObservable">
+            <img src="../assets/images/Icons/Color/User.svg"><span data-bind="text: firstName.toLowerCase()+ ' ' + lastName.toLowerCase()">Name</span>
+        </div>
+    </nav>
+    <div class="views-container">
+        <div class="questions-column">
+            <div class='slider'>
+                <div id="help_slider">
+                    <ul data-bind="foreach: faqs">
+                        <li>
+                            <h2 data-bind="text: question"></h2>
+                            <p data-bind="text: answer"></p>
+                        </li>
+                    </ul>
+
+                    <!-- <ul>
+                            <li>
+                                    <h2>I’m out of lancets/strips for my glucometer, how do I order more?</h2>
+                                    <p>To order more lancets or strips for your glucometer, contact your care provider.  They will provide you with any materials you may require!</p>
+                                <!-- </div> -->
+                                <!-- <div class="content-box"> -->
+                                </li>
+                                <li>
+                                    <h2>Why aren’t my measurements showing up?</h2>
+                                    <p>In order for your bluetooth devices to transfer readings, they must be within 10 feet of your bluetooth receiver (located on the ROS box).  Try taking your measurements closer to your ROS box, and if problems persist, call your care provider for assistance.</p>
+                                <!-- </div> -->
+                                <!-- <div class="content-box"> -->
+                                </li>
+                                <li>
+                                    <h2>I’m out of lancets/strips for my glucometer, how do I order more?</h2>
+                                    <p>To order more lancets or strips for your glucometer, contact your care provider.  They will provide you with any materials you may require!</p>
+                                <!-- </div> -->
+                                <!-- <div class="content-box"> -->
+                                </li>
+                                <li>
+                                    <h2>Why aren’t my measurements showing up?</h2>
+                                    <p>In order for your bluetooth devices to transfer readings, they must be within 10 feet of your bluetooth receiver (located on the ROS box).  Try taking your measurements closer to your ROS box, and if problems persist, call your care provider for assistance.</p>
+                                <!-- </div> -->
+                                <!-- <div class="content-box"> -->
+                                </li>
+                                <li>
+                                    <h2>I’m out of lancets/strips for my glucometer, how do I order more?</h2>
+                                    <p>To order more lancets or strips for your glucometer, contact your care provider.  They will provide you with any materials you may require!</p>
+                                <!-- </div> -->
+                                <!-- <div class="content-box"> -->
+                                </li>
+                                <li>
+                                    <h2>Why aren’t my measurements showing up?</h2>
+                                    <p>In order for your bluetooth devices to transfer readings, they must be within 10 feet of your bluetooth receiver (located on the ROS box).  Try taking your measurements closer to your ROS box, and if problems persist, call your care provider for assistance.</p>
+                                <!-- </div> -->
+                                <!-- <div class="content-box"> -->
+                                </li>
+                                <li>
+                                    <h2>I’m out of lancets/strips for my glucometer, how do I order more?</h2>
+                                    <p>To order more lancets or strips for your glucometer, contact your care provider.  They will provide you with any materials you may require!</p>
+                                <!-- </div> -->
+                                <!-- <div class="content-box"> -->
+                                </li>
+                                <li>
+                                    <h2>Why aren’t my measurements showing up?</h2>
+                                    <p>In order for your bluetooth devices to transfer readings, they must be within 10 feet of your bluetooth receiver (located on the ROS box).  Try taking your measurements closer to your ROS box, and if problems persist, call your care provider for assistance.</p>
+                                <!-- </div> -->
+                                <!-- <div class="content-box"> -->
+                                </li>
+                                <li>
+                                    <h2>I’m out of lancets/strips for my glucometer, how do I order more?</h2>
+                                    <p>To order more lancets or strips for your glucometer, contact your care provider.  They will provide you with any materials you may require!</p>
+                                <!-- </div> -->
+                                </li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+        <!-- <div class="help-column">
+            <div id="need-help" class="content-box">
+                <h2>Need more help????</h2>
+            </div>
+        </div> -->
+    </div>
+</div>

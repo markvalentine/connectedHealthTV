@@ -1,0 +1,14 @@
+{
+    "errorMapName": "ConnectedHealth Error Map",
+    "errors": {
+    
+        "ConnectedHealth-101": {
+            "HelpContext": "Catalog currently downloading.",
+            "designSpecific": "The selected application still has catalogs downloading, or unavailable and so can't be shown to the user yet."
+        },
+        "ConnectedHealth-102": {
+            "HelpContext": "A temporary error occured.",
+            "designSpecific": "This is an error that might occur once in a while but the application can continue on and function properly for the user."
+        }
+    }
+}

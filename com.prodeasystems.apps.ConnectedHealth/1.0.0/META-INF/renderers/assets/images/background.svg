@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="1080px" viewBox="0 0 1920 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>back + Rectangle 12 Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="25.3603521%" y1="18.7003247%" x2="96.8654639%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF8E8E" offset="0%"></stop>
+            <stop stop-color="#D34E4E" offset="100%"></stop>
+        </linearGradient>
+        <path d="M-5.45696821e-12,66.1414491 L-5.45696821e-12,1080 L1920,1080 L1920,0 L1458.68025,0.00319247053 C1164.20621,101.176442 939.133836,262.35329 640.770357,262.35329 C350.875621,262.35329 137.285502,196.949343 -5.45696821e-12,66.1414491 Z" id="path-2"></path>
+        <linearGradient x1="25.3603521%" y1="18.7003247%" x2="96.8654639%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#FF7D7D" offset="0%"></stop>
+            <stop stop-color="#D34E4E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="TV" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Login/Other-Profile">
+            <g id="Background">
+                <g id="back-+-Rectangle-12-Mask" transform="translate(960.000000, 540.000000) scale(1, -1) translate(-960.000000, -540.000000) ">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    <path d="M1.28920874e-10,460 L1920,460 L1920,837.540421 C1827.90475,999.18014 1658.95785,1080 1413.15931,1080 C1044.46148,1080 974.304322,892.362684 629.247802,892.362684 C399.210122,892.362684 189.460855,933.159114 1.29830369e-10,1014.75197 L1.28920874e-10,460 Z" id="back" fill="url(#linearGradient-4)" mask="url(#mask-3)" transform="translate(960.000000, 770.000000) scale(-1, -1) translate(-960.000000, -770.000000) "></path>
+                    <path d="M1920,0 L1920,360.867763 C1839.97234,426.955921 1696.78417,460 1490.43548,460 C1324.32081,460 969.969736,306.74654 427.382255,0 L1920,0 Z" id="back" fill="url(#linearGradient-4)" mask="url(#mask-3)"></path>
+                    <polygon id="Rectangle-12" fill="#4D45A6" style="mix-blend-mode: color;" mask="url(#mask-3)" points="0 0 1920 0 1920 1080 0 1080"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

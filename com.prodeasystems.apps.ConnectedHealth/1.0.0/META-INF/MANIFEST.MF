@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ConnectedHealth
+Bundle-SymbolicName: com.prodeasystems.apps.ConnectedHealth
+Bundle-Version: 1.0.0
+Bundle-Category: uncategorized
+Bundle-Icon: default.png
+Bundle-Description: No description available
+Bundle-Vendor: Prodea Systems, Inc.
+Bundle-License: Prodea Systems, Inc.
+Bundle-Copyright: Prodea Systems, Inc.
+Prodea-ServiceMapping: EXTRAS
+Prodea-ServiceQualifier: MAP_1_TO_1
+Prodea-DefaultApplication: Yes
+Prodea-RequiredRHCExecutionEnvironment: ROS2000_Prodea_5.4.*;version="5.4.0"
+Prodea-Application-Dependency: com.prodeasystems;version="1.0.0"

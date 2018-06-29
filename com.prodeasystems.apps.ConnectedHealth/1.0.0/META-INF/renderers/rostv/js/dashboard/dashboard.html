@@ -1,0 +1,203 @@
+<div class='viewContainer'>
+        <nav class="header">
+            <img src="../assets/images/Icons/Color/Home.svg"><h2>Dashboard</h2>
+            <h3 class="float-left">ROS Health</h3>
+            <div class="float-right" data-bind="with: Prodea.App.ConnectedHealth.userObservable">
+                <img src="../assets/images/Icons/Color/User.svg"><span data-bind="text: firstName.toLowerCase()+ ' ' + lastName.toLowerCase()">Name</span>
+            </div>
+        </nav>
+
+    <div class="views-container">
+        <div class="vitals" id="vitals-grid">
+            <ul>
+                <li id="bp" class="vital-widget blood_pressure">
+                    <div class="header bp">
+                        <img src="../assets/images/Icons/White/Blood_Pressure.svg">
+                        <h2>Blood Pressure</h2>
+                    </div>
+                    <div class="gauge-box">
+                        <div class="gauge no-value">
+                            <img class="image" src="../assets/images/Graph.png">
+                            <div class="indicator">
+                                <div class="arrow-border"></div>
+                                <div class="arrow"></div>
+                            </div>
+                            <div class="data">
+                                <h2>— —</h2>
+                                <p class="unit">— —</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <h3>You don't have any readings for this vital yet!</h3>
+                    </div>
+                </li>
+
+                <li id="gluc" class="vital-widget blood_glucose">
+                    <div class="header gluc">
+                        <img src="../assets/images/Icons/White/Glucose.svg">
+                        <h2>Blood Glucose</h2>
+                    </div>
+                    <div class="gauge-box">
+                        <div class="gauge no-value">
+                            <img class="image" src="../assets/images/Graph.png">
+                            <div class="indicator">
+                                <div class="arrow-border"></div>
+                                <div class="arrow"></div>
+                            </div>
+                            <div class="data">
+                                <h2>— —</h2>
+                                <p class="unit">— —</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <h3>You don't have any readings for this vital yet!</h3>
+                    </div>
+                </li>
+                <li id="ox" class="vital-widget blood_oxygen">
+                    <div class="header ox">
+                            <img src="../assets/images/Icons/White/Oxygen.svg">
+                        <h2>Respiration Rate</h2>
+                    </div>
+                    <div class="gauge-box">
+                        <div class="gauge no-value">
+                            <img class="image" src="../assets/images/Graph.png">
+                            <div class="indicator">
+                                <div class="arrow-border"></div>
+                                <div class="arrow"></div>
+                            </div>
+                            <div class="data">
+                                <h2>— —</h2>
+                                <p class="unit">— —</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <h3>You don't have any readings for this vital yet!</h3>
+                    </div>
+                </li>
+                <li id="wt" class="vital-widget weight">
+                    <div class="header wt">
+                        <img src="../assets/images/Icons/White/Scale.svg">
+                        <h2>BMI</h2>
+                    </div>
+                    <div class="gauge-box">
+                        <div class="gauge no-value">
+                            <img class="image" src="../assets/images/Graph.png">
+                            <div class="indicator">
+                                <div class="arrow-border"></div>
+                                <div class="arrow"></div>
+                            </div>
+                            <div class="data">
+                                <h2>— —</h2>
+                                <p class="unit">— —</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <h3>You don't have any readings for this vital yet!</h3>
+                    </div>
+                </li>
+                <li id="hr" class="vital-widget heart_rate">
+                    <div class="header hr">
+                        <img src="../assets/images/Icons/White/Heart_Rate.svg">
+                        <h2>Heart Rate</h2>
+                    </div>
+                    <div class="gauge-box">
+                        <div class="gauge no-value">
+                            <img class="image" src="../assets/images/Graph.png">
+                            <div class="indicator">
+                                <div class="arrow-border"></div>
+                                <div class="arrow"></div>
+                            </div>
+                            <div class="data">
+                                <h2>— —</h2>
+                                <p class="unit">— —</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <h3>You don't have any readings for this vital yet!</h3>
+                    </div>
+                </li>
+                <li id="temp" class="vital-widget temperature">
+                    <div class="header temp">
+                        <img src="../assets/images/Icons/White/Temperature.svg">
+                        <h2>Temperature</h2>
+                    </div>
+                    <div class="gauge-box">
+                        <div class="gauge no-value">
+                            <img class="image" src="../assets/images/Graph.png">
+                            <div class="indicator">
+                                <div class="arrow-border"></div>
+                                <div class="arrow"></div>
+                            </div>
+                            <div class="data">
+                                <h2>— —</h2>
+                                <p class="unit">— —</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <h3>You don't have any readings for this vital yet!</h3>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="tasks" class="content-box">
+            <h2>Tasks</h2>
+            <div class="section-title" data-bind="with: taskCounts">
+                <table>
+                    <tr>
+                        <th>Overdue:</th>
+                        <td data-bind="text: Overdue"></td>
+                    </tr>
+                    <tr>
+                        <th>Pending:</th>
+                        <td data-bind="text: Pending"></td>
+                    </tr>
+                </table>
+                <!-- <h3>Overdue:  <span id="overdue">1</span></h3> -->
+                <!-- <div class="num-priority high">0</div>
+                <div class="num-priority med">0</div>
+                <div class="num-priority low">0</div> -->
+                <!-- <h3>Pending:  <span id="pending"></span></h3> -->
+                <!-- <div class="num-priority high">2</div>
+                <div class="num-priority med">3</div>
+                <div class="num-priority low">2</div> -->
+            </div>
+            <div id="task_slider">
+                <ul class="task_slider_list" data-bind="foreach: tasks">
+                    <li class="task" data-bind="attr: { value: id }">
+                        <div class="priority" data-bind="css: Prodea.App.ConnectedHealth.Controls.dashboard.getPriority(priority), text: Prodea.App.ConnectedHealth.Controls.dashboard.getPriority(priority)"></div>
+                        <div class="info">
+                            <h3 data-bind="text: name"></h3>
+                            <table>
+                                <tr>
+                                    <th>Type:</th>
+                                    <td data-bind="text: category"></td>
+                                </tr>
+                                <tr>
+                                    <th>Due:</th>
+                                    <td data-bind="text: moment(dueDate).format('DD MMMM YYYY')"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="care-providers" class="content-box">
+            <h2>Care Providers</h2>
+            <div>You don't have any care providers associated with your account</div>
+
+            <!-- <div data-bind="foreach: careProviders">
+                <span data-bind="html: $data"></span>
+            </div> -->
+        </div>
+    </div>
+
+    
+    
+</div>

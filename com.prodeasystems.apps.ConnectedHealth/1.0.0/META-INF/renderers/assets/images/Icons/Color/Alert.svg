@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Color/Alert</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons/Color/Alert" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval-2" fill="#FF7979" cx="40" cy="40" r="40"></circle>
+        <path d="M43.4,48.16 L36.2,48.16 L36.2,19 L43.4,19 L43.4,48.16 Z M35,57.28 C35,55.9999936 35.4699953,54.9000046 36.41,53.98 C37.3500047,53.0599954 38.4799934,52.6 39.8,52.6 C41.0800064,52.6 42.1999952,53.0399956 43.16,53.92 C44.1200048,54.8000044 44.6,55.8799936 44.6,57.16 C44.6,58.4400064 44.1300047,59.5399954 43.19,60.46 C42.2499953,61.3800046 41.1200066,61.84 39.8,61.84 C39.1599968,61.84 38.5500029,61.7200012 37.97,61.48 C37.3899971,61.2399988 36.8800022,60.920002 36.44,60.52 C35.9999978,60.119998 35.6500013,59.6400028 35.39,59.08 C35.1299987,58.5199972 35,57.9200032 35,57.28 Z" id="!" fill="#FFFFFF"></path>
+    </g>
+</svg>

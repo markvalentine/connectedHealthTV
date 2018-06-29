@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+ (c) COPYRIGHT 2017 PRODEA SYSTEMS, INC. ALL RIGHTS RESERVED.
+ PRODEA SYSTEMS CONFIDENTIAL INFORMATION AND TRADE SECRETS
+ THE SOURCE CODE CONTAINED IN THIS FILE IS THE PROPERTY OF PRODEA
+ SYSTEMS, INC. ("PRODEA"), AND CONSTITUTES TRADE SECRETS OF PRODEA
+ SYSTEMS, INC. THE HOLDER OF THIS FILE MUST KEEP THIS FILE AND ALL
+ ITS CONTENTS STRICTLY CONFIDENTIAL AND IS GRANTED NO RIGHTS TO USE
+ THE SOURCE CODE EXCEPT TO THE EXTENT EXPRESSLY AUTHORIZED BY PRODEA.
+ IF YOU ARE NOT AUTHORIZED TO POSSESS THIS SOURCE CODE, YOU MUST
+ RETURN IT TO PRODEA IMMEDIATELY UPON RECEIPT OR, IF YOU HOLD
+ IT IN A FORM THAT CANNOT BE RETURNED, YOU MUST DESTROY IT. IF YOU
+ FAIL TO DO SO PROMPTLY, YOU MAY FACE LEGAL ACTION FOR THEFT AND
+ MISAPPROPRIATION OF TRADE SECRETS.
+-->
+
+<project basedir="." default="package" name="com.prodeasystems.apps.ConnectedHealth">
+
+    <!-- The local.properties allows user's to redefine paths allowing customization
+         to user's development envioronment.
+
+         The local.properties file should *NOT* be checked into Version Control Systems. -->
+   <property file="${user.home}/.prodea/local.properties" />
+
+   <property file="build.properties" prefix="imported"/>
+   <property environment="env"/>
+
+   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+   <!-- Imported Tasks                                                                             -->
+   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+   <property name="src-root" value=".."/>
+
+   <import file="${src-root}/build.env"/>
+   <import file="${build-scripts-dir}/build_boilerplate.xml"/>
+   <import file="${build-scripts-dir}/build_macros.xml"/>
+
+   <!-- ########################################################################################## -->
+   <!-- Target: init                                                                               -->
+   <!-- ########################################################################################## -->
+   <target name="init" depends="boilerplate-init">
+      <!--
+      Project specific:
+           Recursively call init on all sub-directories
+      -->
+
+       <macro-subant-targets target="init"/>
+   </target>
+
+   <!-- ########################################################################################## -->
+   <!-- Target: clean                                                                              -->
+   <!-- ########################################################################################## -->
+   <target name="clean" depends="init">
+      <!-- Boilerplate: Clean -->
+      <antcall target="boilerplate-clean"/>
+
+      <!--
+      Project specific:
+           Recursively call clean on all sub-directories
+      -->
+      <macro-subant-targets target="clean"/>
+   </target>
+
+   <!-- ########################################################################################## -->
+   <!-- Target: build                                                                              -->
+   <!-- ########################################################################################## -->
+   <target name="build" depends="init">
+      <antcall target="boilerplate-build"/>
+
+      <!--
+      Project specific:
+           Recursively call build on all sub-directories
+      -->
+
+      <macro-subant-targets target="build"/>
+   </target>
+
+   <!-- ########################################################################################## -->
+   <!-- Target: package                                                                            -->
+   <!-- ########################################################################################## -->
+   <target name="package" depends="build,init">
+      <antcall target="boilerplate-package"/>
+
+      <!--
+      Project specific:
+           Recursively call package on all sub-directories
+      -->
+      <macro-subant-targets target="package"/>
+   </target>
+
+
+   <!-- ########################################################################################## -->
+   <!-- Target: simulate                                                                            -->
+   <!-- ########################################################################################## -->
+   <target name="simulate" depends="package">
+     <antcall target="boilerplate-simulate"/>
+
+      <!--
+      Project specific:
+           Recursively call package on all sub-directories
+      -->
+      <macro-subant-targets target="simulate"/>
+   </target>
+
+   <!-- ########################################################################################## -->
+   <!-- Target: analyze                                                                            -->
+   <!-- ########################################################################################## -->
+   <target name="analyze" depends="init">
+      <antcall target="boilerplate-analyze" inheritAll="true"/>
+
+      <!--
+      Project specific:
+           Recursively call package on all sub-directories
+      -->
+      <macro-subant-targets target="analyze"/>
+   </target>
+
+   <!-- ########################################################################################## -->
+   <!-- Target: document                                                                            -->
+   <!-- ########################################################################################## -->
+   <target name="document" depends="init">
+      <antcall target="boilerplate-document" inheritAll="true"/>
+
+      <!--
+      Project specific:
+           Recursively call package on all sub-directories
+      -->
+      <macro-subant-targets target="document"/>
+   </target>
+</project>

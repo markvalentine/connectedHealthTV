@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/White/Vitals</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons/White/Vitals" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <circle id="Oval" fill="#FFFFFF" cx="40" cy="40" r="40"></circle>
+            <path d="M40.0003517,32.6701137 C41.1193395,26.9176468 46.4562582,23.1156855 51.9214328,24.1780078 C57.3870958,25.2404251 60.9113022,30.7656795 59.7929683,36.5190089 C58.6746425,42.2722961 49.7148951,49.8795907 40.0002654,61.0009609 C30.2853686,49.8796234 21.3253514,42.2723693 20.2070246,36.5190766 C19.0886907,30.7657472 22.6130532,25.2404625 28.0789088,24.1780078 C33.5442974,23.1156439 38.8813926,26.9176089 40.0003517,32.6701137 Z" id="Combined-Shape" fill="#FA809C"></path>
+        </g>
+    </g>
+</svg>

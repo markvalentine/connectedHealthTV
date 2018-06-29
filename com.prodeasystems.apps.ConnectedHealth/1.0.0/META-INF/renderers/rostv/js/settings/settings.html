@@ -1,0 +1,24 @@
+<div class='viewContainer'>
+    <nav class="header">
+        <img src="../assets/images/Icons/Color/Settings.svg"><h2>Settings</h2>
+        <h3 class="float-left">ROS Health</h3>
+        <div class="float-right" data-bind="with: Prodea.App.ConnectedHealth.userObservable">
+            <img src="../assets/images/Icons/Color/User.svg"><span data-bind="text: firstName.toLowerCase()+ ' ' + lastName.toLowerCase()">Name</span>
+        </div>
+    </nav>
+    
+    <div class="views-container">
+
+        <div id="user-details" class="content-box">
+            <h2>Your Profile</h2>
+            <!-- <div class="empty">You don't have any care providers associated with your account</div> -->
+            <table>
+            </table>
+        </div>
+        <br/>
+
+        <button id="logout" navLeftAction="Prodea.UI.AppMenu.focus()">Logout</button>
+
+    </div>
+    
+</div>

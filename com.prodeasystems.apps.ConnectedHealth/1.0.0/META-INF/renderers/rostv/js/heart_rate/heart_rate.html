@@ -1,0 +1,83 @@
+<div class='viewContainer'>
+    <nav class="header">
+        <img src="../assets/images/Icons/Color/Heart_Rate.svg"><h2>Heart Rate</h2>
+        <h3 class="float-left">ROS Health</h3>
+        <div class="float-right" data-bind="with: Prodea.App.ConnectedHealth.userObservable">
+            <img src="../assets/images/Icons/Color/User.svg"><span data-bind="text: firstName.toLowerCase()+ ' ' + lastName.toLowerCase()">Name</span>
+        </div>
+    </nav>
+    
+    <div class="views-container">
+        <div data-bind="with: lastReading" id="lastHeartRate" class="metric" navLeftAction="Prodea.UI.AppMenu.focus()" navRight="#avgHeartRate" navDownAction="Prodea.Nav.focus('#heart_rate_slider > ul > li\[lastActive=true\]');">
+            <h2>Last Reading</h2>
+            <div class="gauge" data-bind="css: {'no-range' : !referenceRange}">
+                <img class="image" src="../assets/images/Graph.png">
+                <div class="indicator" data-bind="style: { '-webkit-transform': referenceRange ? 'rotate(' + Prodea.App.ConnectedHealth.getRotation(value, referenceRange.high.value, referenceRange.low.value) + 'deg)' : '' }">
+                    <div class="arrow-border"></div>
+                    <div class="arrow"></div>
+                </div>
+                <div class="data">
+                    <h2 data-bind="text: value ? value : '— —'">— —</h2>
+                    <p data-bind="text: unit ? unit : '— —'" class="unit">— —</p>
+                </div>
+            </div>
+        </div>
+        <div data-bind="with: average" id="avgHeartRate" class="metric" navLeft="#lastHeartRate" navRight="#numHeartRate" navDownAction="Prodea.Nav.focus('#heart_rate_slider > ul > li\[lastActive=true\]');">
+            <h2 data-bind="text: numDays + ' Day Avg'">7 Day Avg</h2>
+            <div class="gauge" data-bind="css: gaugeClass">
+                <img class="image" src="../assets/images/Graph.png">
+                <div class="indicator"  data-bind="style: { '-webkit-transform': 'rotate(' + rotation + 'deg)' }">
+                    <div class="arrow-border"></div>
+                    <div class="arrow"></div>
+                </div>
+                <div class="data">
+                    <h2 data-bind="text: value ? value : '— —'">— —</h2>
+                    <p data-bind="text: unit" class="unit">— —</p>
+                </div>
+            </div>
+        </div>
+        <div id="numHeartRate" class="metric" navLeft="#avgHeartRate" navRight="#3-day" navDownAction="Prodea.Nav.focus('#heart_rate_slider > ul > li\[lastActive=true\]');">
+            <h2>Num Readings</h2>
+            <div class="number" data-bind="text: readings().length"></div>
+        </div>
+        <div id="timeframe" class="timeframe">
+            <h2>Filter Timeframe</h2>
+            <label class="timeframeLabel" id="3-day" navLeft="#numHeartRate" navDown="#7-day">Last 3 Days<img style="height: 20px; width: 20px; margin-right: 2px;" src="../assets/images/Icons/Prodea/Red.svg">
+                <input type="radio" name="timeframe" value="3">
+                <span class="timeframeRadio"></span>
+            </label>
+            <label class="timeframeLabel" id="7-day" navLeft="#numHeartRate" navDown="#30-day" navup="#3-day">Last 7 Days<img src="../assets/images/Icons/Prodea/Green.svg">
+                <input type="radio" checked="checked" name="timeframe" value="7">
+                <span class="timeframeRadio"></span>
+            </label>
+            <label class="timeframeLabel" id="30-day" navLeft="#numHeartRate" navup="#7-day" navDownAction="Prodea.Nav.focus('#weight_slider > ul > li\[lastActive=true\]');">Last 30 Days<img style="height: 18px; width: 18px; margin-right: 3px; margin-top: 2px;" src="../assets/images/Icons/Prodea/Blue.svg">
+                <input type="radio" name="timeframe" value="30">
+                <span class="timeframeRadio"></span>
+            </label>
+        </div>
+        <div class="graph">
+            <div id="heart_rate_slider" class="readings">
+                <ul>
+                    <li>
+                        <span>Value</span>
+                        <span>Date</span>
+                        <span>Time</span>
+                    </li>
+                    <!-- ko foreach: readings -->
+                    <li data-bind="attr: { value: id }">
+                        <span data-bind="text: value + ' ' + unit"></span>
+                        <span data-bind="text: moment(date).format('MM/DD/YY')"></span>
+                        <span data-bind="text: moment(date).format('h:mm A')"></span>
+                    </li>
+                    <!-- /ko -->
+                </ul>
+            </div>
+            <div class="canvas">
+                <canvas id="heartRateGraph" width="648px" height="465px">
+                    Your browser does not support the HTML5 canvas tag.
+                </canvas>
+            </div>
+        </div>
+    </div>
+    
+</div>

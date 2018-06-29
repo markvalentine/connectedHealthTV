@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Color/Vitals</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons/Color/Vitals" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <circle id="Oval" fill="#FA809C" cx="40" cy="40" r="40"></circle>
+            <path d="M40.0002931,34.5584281 C40.9327829,29.7647057 45.3802152,26.5964046 49.9345274,27.4816732 C54.4892465,28.3670209 57.4260852,32.9713995 56.4941402,37.7658407 C55.5622021,42.5602468 48.095746,48.8996589 40.0002211,58.1674674 C31.9044739,48.8996862 24.4377929,42.5603078 23.5058539,37.7658972 C22.5739089,32.971456 25.5108777,28.3670521 30.0657573,27.4816732 C34.6202478,26.5963699 39.0678272,29.7646741 40.0002931,34.5584281 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

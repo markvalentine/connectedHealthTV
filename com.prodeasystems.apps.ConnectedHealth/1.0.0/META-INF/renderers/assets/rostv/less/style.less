@@ -1,0 +1,666 @@
+// ==========================================================
+// style.less
+// ==========================================================
+
+@width: 1280px;
+@height: 720px;
+@mainmenu-width: 60px;
+@menu-width: 197px;
+@sidebar-width: @mainmenu-width + @menu-width;
+@views-width: @width - @sidebar-width;
+
+@header-height: 45px;
+@views-height: @height - @header-height;
+
+@main-padding-left: 20px;
+@main-padding-right: @main-padding-left;
+@main-padding-top: 15px;
+@main-padding-bottom: @main-padding-top;
+
+@content-width: @views-width - @main-padding-left - @main-padding-right;
+
+//COLORS:
+@dark-text: #454065;
+@med-text: #777589;
+@light-text: #C6C5D2;
+@background-grey: #F4F6FE;
+
+@purple: #BD79FF;
+@red: #FF7979;
+@blue: #81B6FC;
+@green: #28D9B2;
+@pink: #FFB1EE;
+@yellow: #FFCC57;
+
+@blue-purple: #9386F4;
+@light-red: #FA809C;
+@dark-grey: #595575;
+
+@white: #FFFFFF;
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../../fonts/Lato-Hairline.ttf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../../fonts/Lato-Thin.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../../fonts/Lato-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../../fonts/Lato-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../../fonts/Lato-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../../fonts/Lato-Semibold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../../fonts/Lato-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../../fonts/Lato-Black.ttf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../../fonts/Lato-HairlineItalic.ttf);
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../../fonts/Lato-ThinItalic.ttf);
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../../fonts/Lato-LightItalic.ttf);
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../../fonts/Lato-RegularItalic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../../fonts/Lato-MediumItalic.ttf);
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../../fonts/Lato-SemiboldItalic.ttf);
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../../fonts/Lato-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../../fonts/Lato-BlackItalic.ttf);
+    font-weight: 900;
+    font-style: italic;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#MenuBar * {
+    box-sizing: initial;
+}
+
+body {
+    width: @width;
+	height: @height;
+	overflow: hidden;
+    margin: 0;
+    
+    color: @dark-text;
+    background: @background-grey;
+    font-family: "Lato";
+    
+}
+
+#MenuBar {
+    float: left;
+    width: @menu-width;
+    height: @height;
+    overflow: hidden;
+    box-sizing: initial;
+    // z-index: 100;
+}
+
+.menu-icon {
+    height: 28px;
+    width: 28px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.menu-text {
+    vertical-align: middle;
+}
+
+.menu-text.submenu {
+    font-size: 18px !important;
+}
+
+.subMenuText {
+    display: inline-block;
+    width: 100%;
+    padding-left: 10px;
+    text-align: left;
+}
+
+#Prodea_UI_AppMenu > div > div > div > ul > li.UIFOCUS{
+    background: #45357E;
+}
+
+#Prodea_UI_AppMenu:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 42px;
+    width: @menu-width;
+    height: @height;
+    background: #2C2251;
+    color: #FFFFFF;
+    z-index: -1;
+}
+
+nav.header {
+    background: #FFFFFF;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: @views-width;
+    height: @header-height;
+    padding: 5px;
+    text-align: center;
+
+    img {
+        height: 35px;
+        width: 35px;
+        margin-right: 15px;
+        vertical-align: middle;
+    }
+
+    h2 {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+
+    .float-left {
+        float: left;
+        padding-left: 10px;
+        font-weight: 700;
+        font-size: 18px;
+        vertical-align: middle;
+        text-align: left;
+        margin-top: 10px;
+        color: @med-text;
+    }
+
+    .float-right {
+        float: right;
+        padding-right: 10px;
+        margin-top: 5px;
+        color: @med-text;
+        span {
+            font-weight: 500;
+            font-size: 18px;
+            vertical-align: middle;
+            display: inline-block;
+            text-align: right;
+            text-transform: capitalize;
+        }
+        img {
+            height: 25px;
+            width: 25px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+    }
+}
+
+#Views {
+    width: @width;
+    height: @height;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+
+    box-sizing: border-box;
+}
+
+.views-container {
+    width: @views-width;
+    position: fixed;
+    right: 0px;
+    top: @header-height;
+    padding: @main-padding-top @main-padding-right @main-padding-bottom @main-padding-left;
+
+    box-sizing: border-box;
+}
+
+//MY STYLING:
+.white-text {
+    color: white;
+}
+
+.content-box {
+    border: 2px solid white;
+    background: white;
+    border-radius: 10px;
+    margin: 0 0 15px 0;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    display: inline-block;
+    box-shadow: 0 2px 2px 0 #E7E6EE;
+}
+
+.content-box.UIFOCUS {
+    border: 2px solid @blue;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.questions-column {
+    display: inline-block;
+    width: @content-width - 30px - 200px - 5px;
+    vertical-align: top;
+    padding-right: 30px;
+}
+
+.help-column {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+}
+
+#need-help {
+    background: @blue-purple;
+    width: 200px;
+    .white-text;
+}
+
+
+
+
+// "container" -- set the position and 'max' display area for the slider
+.slider > div {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: @content-width;
+    height: 2665px;
+    overflow: hidden;
+}
+
+.questions-column > .slider > div {
+    width: @content-width - 30px - 200px - 5px;
+    height: 1635px;
+}
+
+.slider > div > ul {
+    position: relative;
+    display: block;
+}
+
+// Set sizes and styles for each cell
+.slider > div > ul > li {
+    .content-box;
+    position: relative;
+    width: @content-width;
+    height: 320px;
+    border: 2px solid transparent;
+    // padding: 0px 3px;
+}
+
+.questions-column > .slider > div > ul > li {
+    width: @content-width - 30px - 200px - 5px;
+    height: 150px;
+}
+
+.slider > div > ul > li:last-child {
+    margin: 0px;
+}
+        
+// And the focused state for each cell
+.slider > div > ul > li.UIFOCUS {
+    border: 2px solid @blue;
+    // box-shadow: 0 0 15px 0 rgba(129, 182, 252, 0.75);
+}
+
+#DASHOVERLAY {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: @height;
+    width: @width;
+    /* Rectangle 10: */
+    background: rgba(15,7,46,0.65);
+    // background: #0F072E;
+    padding: 60px 180px;
+    z-index: 100;
+    box-sizing: border-box;
+}
+
+#DASHOVERLAY .overlay-content {
+    opacity: 1;
+    text-align: center;
+
+    .content-box {
+        margin: 0 auto;
+        width: 500px;
+        padding: 30px 15px 15px;
+        
+        h2 {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 15px;
+            // text-align: left;
+        }
+
+        table {
+            font-size: 20px;
+            margin: 0 auto;
+
+            th {
+                text-align: left;
+                color: @med-text;
+                padding: 5px;
+            }
+            td {
+                padding: 5px 5px 5px 10px;
+                text-align: left;
+            }
+        }
+
+        button {
+            border: none;
+            box-shadow: none;
+            width: 250px;
+            border-radius: 20px;
+            background: #C5C5C9;
+            font-weight: 700;
+            font-size: 16px;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 10px;
+            margin: 30px 0 10px;
+        }
+        
+        button.UIFOCUS {
+            background: #81B6FC;
+        }
+
+    }
+}
+
+// .overlay-content {
+//     // z-index: 2147483648;
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     height: @height;
+//     width: @width;
+// }
+
+//ALL VITALS
+.metric {
+    .content-box;
+
+    margin-right: 15px;
+    width: 165px;
+    height: 161px;
+    vertical-align: top;
+    padding: 10px;
+
+    .number {
+        margin-top: 20px;
+        font-size: 52px;
+        font-weight: 900;
+        color: #837EA3;
+        height: 161px;
+        text-align: center;
+    }
+    
+    .gauge {
+        margin-left: 10px;
+    }
+}
+
+.metric.UIFOCUS {
+    border: 2px solid @blue;
+}
+
+.timeframe {
+    .content-box;
+
+    width: 246px;
+    height: 161px;
+    vertical-align: top;
+    float: right;
+}
+
+.graph {
+    .content-box;
+    border: none;
+    display: block;
+    height: 465px;
+    padding: 0;
+    overflow: hidden;
+
+    .readings {
+        height: 470px;
+        overflow: hidden;
+        width: 330px;
+        display: inline-block;
+        background: #EBE9F9;
+        color: #6B6794;
+
+        ul {
+            display: table;
+            width: 100%;
+            position: relative;
+        
+            li {
+                display: table-row;
+                background: #EBE9F9;
+                height: 34px;
+                width: 330px;
+
+                span {
+                    display: table-cell;
+                    padding: 10px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    box-shadow: 0 1px 0 0 #C9C6DC, 0 -1px 0 0 rgba(201,198,220,0.50);
+                }
+
+            }
+
+
+            div {
+                display: table-row;
+                background: #EBE9F9;
+                height: 34px;
+                width: 330px;
+
+                span {
+                    display: table-cell;
+                    padding: 10px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    box-shadow: 0 1px 0 0 #C9C6DC, 0 -1px 0 0 rgba(201,198,220,0.50);
+                }
+
+            }
+
+            li:first-child {
+                span {
+                    box-shadow: 0 1px 0 0 #C9C6DC;
+                }
+            }
+
+            li.UIFOCUS {
+                background: #CBC7ED;
+                span {
+                    box-shadow: 0 1px 0 0 #C9C6DC, 0 -1px 0 0 rgba(201,198,220,0.50);
+                }
+            }
+        }
+    }
+
+    .canvas {
+        position: relative;
+        display: inline-block;
+        width: 642px;
+        height: 465px;
+    }
+
+    // canvas {
+    //     border-top-right-radius: 10px;
+    //     border-bottom-right-radius: 10px;
+    // }
+
+}
+
+.timeframeLabel {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: 500;
+
+}
+
+.timeframeLabel img {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    float: right;
+}
+
+/* Hide the browser's default radio button */
+.timeframeLabel input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.timeframeRadio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.timeframeLabel.UIFOCUS input ~ .timeframeRadio {
+    background-color: #ccc;
+}
+
+.timeframeLabel.UIFOCUS {
+    font-weight: 900;
+}
+
+/* When the radio button is checked, add a blue background */
+.timeframeLabel input:checked ~ .timeframeRadio {
+    background-color: @blue;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.timeframeRadio:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.timeframeLabel input:checked ~ .timeframeRadio:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.timeframeLabel .timeframeRadio:after {
+     top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}

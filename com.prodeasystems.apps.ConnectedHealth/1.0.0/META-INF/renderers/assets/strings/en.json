@@ -1,0 +1,9 @@
+{
+    "name": "ConnectedHealth Translations",
+    "language": "English",
+    "translations": {
+        "default": {
+                    "hello": "Hi"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Color/Metrics</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="40" cy="40" r="40"></circle>
+    </defs>
+    <g id="Icons/Color/Metrics" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Metrics">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#6069D8" xlink:href="#path-1"></use>
+            <polygon id="Path-3" fill="#FFFFFF" mask="url(#mask-2)" transform="translate(40.490000, 40.343000) rotate(-22.500000) translate(-40.490000, -40.343000) " points="20 51.3319312 36.4612662 34.5615885 43.0457726 41.2697256 52.9225323 31.20752 49.6302791 27.8534515 60.9799995 26 59.5070388 37.9156571 56.2147856 34.5615885 43.0457726 47.9778626 36.4612662 41.2697256 23.2922532 54.6859997"></polygon>
+        </g>
+    </g>
+</svg>

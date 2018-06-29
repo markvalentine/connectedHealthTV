@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/White/Reports</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons/White/Reports" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Reports">
+            <circle id="Combined-Shape" fill="#FFFFFF" cx="40" cy="40" r="40"></circle>
+            <path d="M23,15 L57,15 C58.1045695,15 59,15.8954305 59,17 L59,63.6666667 C59,64.7712362 58.1045695,65.6666667 57,65.6666667 L23,65.6666667 C21.8954305,65.6666667 21,64.7712362 21,63.6666667 L21,17 C21,15.8954305 21.8954305,15 23,15 Z M25.3428571,22.6 L25.3428571,24.7714286 L43.8,24.7714286 L43.8,22.6 L25.3428571,22.6 Z M25.3428571,31.2857143 L25.3428571,33.4571429 L53.5714286,33.4571429 L53.5714286,31.2857143 L25.3428571,31.2857143 Z M25.3428571,39.9714286 L25.3428571,42.1428571 L43.8,42.1428571 L43.8,39.9714286 L25.3428571,39.9714286 Z M25.3428571,57.3428571 L25.3428571,59.5142857 L43.8,59.5142857 L43.8,57.3428571 L25.3428571,57.3428571 Z M25.3428571,48.6571429 L25.3428571,50.8285714 L53.5714286,50.8285714 L53.5714286,48.6571429 L25.3428571,48.6571429 Z" id="Combined-Shape" fill="#28D9B2"></path>
+        </g>
+    </g>
+</svg>

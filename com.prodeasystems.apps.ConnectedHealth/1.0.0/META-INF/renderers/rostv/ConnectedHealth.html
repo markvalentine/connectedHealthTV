@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+
+    <meta name="description" content="ConnectedHealth">
+    <meta name="author" content="ProdeaSystems">
+
+    <title>ConnectedHealth</title>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+    <script type="text/javascript" src="../../../frameworks/thirdparty/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="../../../frameworks/prodea/v2/Prodea.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.6.3/jquery.timeago.min.js"></script>
+    <script src="js/ConnectedHealth.js"></script>
+
+    <link id="applicationStylesheet" rel="stylesheet" type="text/css" href="../assets/rostv/less/initialize.css" />
+</head>
+    
+<body>
+    <div id="blur">
+        <div id="MenuBar">
+            <div id="Prodea_UI_AppMenu"></div>
+        </div>
+        <div id="Views">
+            <div class="view" data-id="dashboard"></div>
+            <!-- Vitals go here -->
+            <div class="view" data-id="blood_pressure"></div>
+            <div class="view" data-id="blood_glucose"></div>
+            <div class="view" data-id="blood_oxygen"></div>
+            <div class="view" data-id="weight"></div>
+            <div class="view" data-id="heart_rate"></div>
+            <div class="view" data-id="temperature"></div>
+            <!-- end vitals -->
+            <div class="view" data-id="help"></div>
+            <div class="view" data-id="about"></div>
+            <div class="view" data-id="settings"></div>
+            <div class="view" data-id="login"></div>
+        </div>
+    </div>
+
+    <div id="DASHOVERLAY">
+        <div class="overlay-content">
+            <div class="content-box">
+                <h2>Yay</h2>
+                <p>We need to get some information about the height of each of these things so we can itterate over them?</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

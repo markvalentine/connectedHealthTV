@@ -1,0 +1,71 @@
+{
+    "name": "Prodea SDK i18n Template",
+    "language": "English",
+    "translations": {
+        "default": {
+            "defaultString": "Default String",
+            "resolutionString": "Default Resolution Dependent String"
+        },        
+        "rostv": {
+            "defaultString": "Default String - ROSTV"
+        },
+        "rosweb": {
+            "resolution": {
+                "480": {
+                    "resolutionString": "Default Resolution Dependent String - ROSWEB, 480"
+                },
+                "720": {
+                    "resolutionString": "Default Resolution Dependent String - ROSWEB, 720"
+                },
+                "1080": {
+                    "resolutionString": "Default Resolution Dependent String - ROSWEB, 1080"
+                }
+            },
+            "defaultString": "Default String - ROSWEB"
+        },
+        "US": {        
+            "default": {
+                "defaultString": "Default String - US"
+            },            
+            "rostv": {
+                "defaultString": "Default String - US, ROSTV"
+            },            
+            "rosweb": {
+                "resolution": {
+                    "480": {
+                        "resolutionString": "Default Resolution Dependent String - US, ROSWEB, 480"
+                    },
+                    "720": {
+                        "resolutionString": "Default Resolution Dependent String - US, ROSWEB, 720"
+                    },
+                    "1080": {
+                        "resolutionString": "Default Resolution Dependent String - US, ROSWEB, 1080"
+                    }
+                },
+                "defaultString": "Default String - US, ROSWEB"
+            }        
+        },        
+        "UK": {        
+            "default": {
+                "defaultString": "Default String - UK"
+            },            
+            "rostv": {
+                "defaultString": "Default String - UK, ROSTV"
+            },            
+            "rosweb": {
+                "resolution": {
+                    "480": {
+                        "resolutionString": "Default Resolution Dependent String - UK, ROSWEB, 480"
+                    },
+                    "720": {
+                        "resolutionString": "Default Resolution Dependent String - UK, ROSWEB, 720"
+                    },
+                    "1080": {
+                        "resolutionString": "Default Resolution Dependent String - UK, ROSWEB, 1080"
+                    }
+                },
+                "defaultString": "Default String - UK, ROSWEB"
+            }        
+        }        
+    }
+}
